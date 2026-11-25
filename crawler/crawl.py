@@ -25,6 +25,7 @@ from crawler.store.lorenco import LorencoCrawler
 from crawler.store.metro import MetroCrawler
 from crawler.store.ntl import NtlCrawler
 from crawler.store.output import copy_archive_info, create_archive, save_chain
+from crawler.store.pivac import PivacCrawler
 from crawler.store.plodine import PlodineCrawler
 from crawler.store.ribola import RibolaCrawler
 from crawler.store.roto import RotoCrawler
@@ -70,6 +71,7 @@ CRAWLERS = {
     DukatCrawler.CHAIN: DukatCrawler,
     StanicCrawler.CHAIN: StanicCrawler,
     StridonCrawler.CHAIN: StridonCrawler,
+    PivacCrawler.CHAIN: PivacCrawler,
 }
 
 
