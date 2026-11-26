@@ -17,6 +17,7 @@ from crawler.store.dm import DmCrawler
 from crawler.store.dukat import DukatCrawler
 from crawler.store.eurospin import EurospinCrawler
 from crawler.store.gavranovic import GavranovicCrawler
+from crawler.store.inovine import INovineCrawler
 from crawler.store.jadranka_trgovina import JadrankaTrgovinaCrawler
 from crawler.store.kaufland import KauflandCrawler
 from crawler.store.konzum import KonzumCrawler
@@ -78,6 +79,7 @@ CRAWLERS = {
     BipaCrawler.CHAIN: BipaCrawler,
     ZooCityCrawler.CHAIN: ZooCityCrawler,
     PetCentarCrawler.CHAIN: PetCentarCrawler,
+    INovineCrawler.CHAIN: INovineCrawler,
 }
 
 
