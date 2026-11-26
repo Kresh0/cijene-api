@@ -35,11 +35,13 @@ class TrgovinaKrkCrawler(BaseCrawler):
         # The values did not change with the header: on the switch day nearly
         # every pre-existing product kept its 2.5.2025 value, so the column name
         # says nothing reliable about which reference date a row refers to.
+        # Renamed to "Bazna cijena" by 2026-11-25 (NN 132/2026).
         "anchor_price": (
             [
                 "Sidrena cijena na 2.5.2025",
                 "Sidrena cijena na 10.09.2026",
                 "Sidrena cijena",
+                "Bazna cijena",
             ],
             False,
         ),
@@ -68,6 +70,7 @@ class TrgovinaKrkCrawler(BaseCrawler):
             "Sidrena cijena na 2.5.2025",
             "Sidrena cijena na 10.09.2026",
             "Sidrena cijena",
+            "Bazna cijena",
         ],
         "Naziv proizvoda",
         "Šifra proizvoda",
