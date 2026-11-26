@@ -7,6 +7,7 @@ from time import time
 from typing import List
 
 from crawler.store.base import CrawlerBlocked
+from crawler.store.bipa import BipaCrawler
 from crawler.store.boso import BosoCrawler
 from crawler.store.branka import BrankaCrawler
 from crawler.store.brodokomerc import BrodokomercCrawler
@@ -72,6 +73,7 @@ CRAWLERS = {
     StanicCrawler.CHAIN: StanicCrawler,
     StridonCrawler.CHAIN: StridonCrawler,
     PivacCrawler.CHAIN: PivacCrawler,
+    BipaCrawler.CHAIN: BipaCrawler,
 }
 
 

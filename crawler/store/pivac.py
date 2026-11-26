@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 from crawler.store.models import Store
 
 from .base import BaseCrawler
-from .utils import load_store_map
 
 logger = logging.getLogger(__name__)
 
@@ -103,29 +102,6 @@ class PivacCrawler(BaseCrawler):
 
         return urljoin(url, str(link["href"]))
 
-    def get_store(self, store_id: str) -> Store:
-        """
-        Build a store from enrichment/stores.csv.
-
-        An unknown store is kept with empty details, so its prices are not lost.
-        """
-        info = load_store_map(self.CHAIN).get(store_id)
-        if info is None:
-            logger.warning(
-                f"Unknown Pivac store {store_id}, add it to enrichment/stores.csv"
-            )
-            info = {}
-
-        return Store(
-            chain=self.CHAIN,
-            store_id=store_id,
-            name=f"Pivac {store_id}",
-            store_type=info.get("type", ""),
-            city=info.get("city", ""),
-            street_address=info.get("address", ""),
-            zipcode=info.get("zipcode", ""),
-        )
-
     def get_all_products(self, date: datetime.date) -> list[Store]:
         zip_url = self.get_zip_url(date)
         if zip_url is None:
@@ -151,7 +127,7 @@ class PivacCrawler(BaseCrawler):
                 logger.error(f"Error processing {filename}: {e}", exc_info=True)
                 continue
 
-            store = self.get_store(store_id)
+            store = self.get_mapped_store(store_id, f"Pivac {store_id}")
             store.items = products
             stores.append(store)
 

@@ -79,6 +79,7 @@ EXPECTED: dict[str, tuple[int, int, int]] = {
     "stanic": (31, 2_613, 50_714),
     "stridon": (41, 31_945, 148_412),
     "pivac": (186, 9_543, 1_774_998),
+    "bipa": (153, 25_458, 3_895_074),
 }
 
 # Crawler processes run from here, so `-m crawler.cli.crawl` resolves.
