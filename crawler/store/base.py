@@ -699,7 +699,8 @@ class BaseCrawler:
         Parse an anchor price date published by the chain, best-effort.
 
         Args:
-            value: Date such as "2.5.2025", "02.05.2025." or "02052025"
+            value: Date such as "2.5.2025", "02.05.2025.", "02052025" or
+                "2025-05-02"
 
         Returns:
             ISO date, or "" if the value isn't a recognized date
@@ -707,7 +708,7 @@ class BaseCrawler:
         # Clean up common noise: trailing dots, double dots
         value = value.strip().rstrip(".").replace("..", ".")
 
-        for fmt in ("%d.%m.%Y", "%d.%m.%y", "%d%m%Y"):
+        for fmt in ("%d.%m.%Y", "%d.%m.%y", "%d%m%Y", "%Y-%m-%d"):
             try:
                 return datetime.datetime.strptime(value, fmt).date().isoformat()
             except ValueError:

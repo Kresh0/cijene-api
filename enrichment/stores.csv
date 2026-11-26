@@ -1292,3 +1292,31 @@ id,chain_code,code,type,address,city,zipcode,lat,lon,phone
 ,zoocity,76,trgovina,Pakračka ulica 11,Bjelovar,43000,45.8889303,16.8464736,+38543633474
 ,zoocity,77,trgovina,Ulica Svetog Roka 15,Ogulin,47300,45.2545248,15.2331701,+38547640396
 ,zoocity,webshop,webshop,,,,,,
+,petcentar,PJ1,prodavaonica,Ul. Vjekoslava Heinzela 60,Zagreb,10000,45.80843,16.00393,+38516040814
+,petcentar,PJ2,prodavaonica,Ulica kralja Petra Svačića 61,Osijek,31000,45.545136823,18.70798308,+38531580869
+,petcentar,PJ3,prodavaonica,Našička 144,Zagreb,10000,45.794343723,15.924806166,+38513013195
+,petcentar,PJ4,prodavaonica,Škurinjska cesta 1,Rijeka,51000,45.352665402,14.415441854,+38551266113
+,petcentar,PJ7,prodavaonica,Avenija Većeslava Holjevca 62,Zagreb,10000,45.757075352,15.988107454,+38516431535
+,petcentar,PJ8,prodavaonica,Put Mostina 8,Split,21000,43.525962999,16.483280879,+38521444411
+,petcentar,PJ9,prodavaonica,Martinkovac 131,Rijeka,51000,45.354849903,14.364858174,+38551629434
+,petcentar,PJ12,prodavaonica,Dubrava 256k/1,Zagreb,10000,45.827509647,16.077104989,+38516381230
+,petcentar,PJ13,prodavaonica,Medulinska cesta 1,Pula,52100,44.861776549,13.866021304,+38552205820
+,petcentar,PJ14,prodavaonica,Put Kozjaka 2,Kaštel Sućurac,21212,43.5478,16.40816,+38521243930
+,petcentar,PJ15,prodavaonica,Ljubljanska avenija 2b,Zagreb,10000,45.79839999,15.888961618,+38512830268
+,petcentar,PJ16,prodavaonica,Nova cesta 54,Zagreb,10000,45.804200067,15.95453944,+38515601983
+,petcentar,PJ17,prodavaonica,Dragutina Golika 1,Zagreb,10000,45.807479254,15.930158021,+38514058315
+,petcentar,PJ18,prodavaonica,Obala Ivana Pavla II 15,Dubrovnik,20000,42.660586929,18.085725246,+38520222353
+,petcentar,PJ19,prodavaonica,Ulica Velimira Škorpika 34,Zagreb,10000,45.795764923,15.857297914,+38514058550
+,petcentar,PJ20,prodavaonica,Ulica 144. brigade Hrvatske vojske 5,Sesvete,10360,45.814693662,16.104859596,+38514058163
+,petcentar,PJ22,prodavaonica,Velebitska 125,Split,21000,43.513270047,16.472171832,+38521243996
+,petcentar,PJ23,prodavaonica,Tomaša Goričanca 1,Čakovec,40000,46.380173038,16.443135568,+38540630402
+,petcentar,PJ24,prodavaonica,Zvonimirova ulica 3,Rijeka,51000,45.337863794,14.407809047,+38551309811
+,petcentar,PJ25,prodavaonica,Gospodarska ulica 39,Varaždin,42000,46.292524625,16.35547532,+38542202276
+,petcentar,PJ26,prodavaonica,Ul. Matice hrvatske 19,Dugopolje,21204,43.592928613,16.577659515,+38521293493
+,petcentar,PJ27,prodavaonica,Ul. Velimira Škorpika 16,Šibenik,22000,43.708791694,15.908577611,+38522646799
+,petcentar,PJ28,prodavaonica,Zagrebačka ulica 154,Dugo Selo,10370,45.809929811,16.209216568,+38516886994
+,petcentar,PJ29,prodavaonica,Ulica Julija Knifera 4,Zagreb,10000,45.779674956,15.983976242,+38516887323
+,petcentar,PJ30,prodavaonica,Ulica Ferde Rusana 12,Bjelovar,43000,45.895895388,16.847460809,
+,petcentar,PJ31,prodavaonica,Ilica 308,Zagreb,10000,45.813869441,15.927061455,
+,petcentar,PJ32,prodavaonica,Utinjska ulica 2A,Zagreb,10020,45.765453474,15.965426355,+38516887901
+,petcentar,PJ6_WEB,webshop,Kovinska 11,Zagreb,10000,,,
