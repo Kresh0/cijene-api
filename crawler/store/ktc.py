@@ -76,6 +76,13 @@ class KtcCrawler(BaseCrawler):
         "frizerski salon",
     )
 
+    # Points of sale skipped by their name on the index, before their page is
+    # fetched: restaurants, which are listed but have no price lists, the
+    # travel agency and the car washes. The file names of the agency and of
+    # one car wash contain "/", which hides the store type
+    # ("PUTNICKA AGENCIJA PJ-37/-NIKOLE TESLE 18 ...").
+    SKIPPED_POINTS_OF_SALE = ("RESTORAN ", "PUTNICKA AGENCIJA", "AUTOPRAONICA")
+
     CITIES = [
         "KRIZEVCI",
         "VARAZDIN",
@@ -122,8 +129,13 @@ class KtcCrawler(BaseCrawler):
 
         for link in store_links:
             href = link.get("href")
-            if href:
-                store_urls.append(f"{self.BASE_URL}/{href}")
+            if not href:
+                continue
+            name = unquote(str(href).split("poslovnica=", 1)[1]).upper()
+            if name.startswith(self.SKIPPED_POINTS_OF_SALE):
+                logger.debug(f"Skipping point of sale {name}")
+                continue
+            store_urls.append(f"{self.BASE_URL}/{href}")
 
         return list(set(store_urls))
 
