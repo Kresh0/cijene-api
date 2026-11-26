@@ -1225,3 +1225,70 @@ id,chain_code,code,type,address,city,zipcode,lat,lon,phone
 ,bipa,P-7519,prodavaonica,Ulica Franje Glada 13,Prelog,40323,46.343402850924,16.610398772214,
 ,bipa,P-7523,prodavaonica,Zagrebačka ulica 40a,Zlatar,49250,46.0870387,16.078996,
 ,bipa,P-7524,prodavaonica,Stubička cesta 17e,Marija Bistrica,49246,46.0048931,16.1096354,
+,zoocity,02,trgovina,Turinina 2a,Zagreb,10000,45.7763816,15.9888167,+38517789512
+,zoocity,03,trgovina,Osječka 284,Slavonski Brod,35000,45.1733994,18.0526041,+38535258129
+,zoocity,04,trgovina,Optujska 155,Varaždin,42000,46.3174535,16.3152101,+38542303784
+,zoocity,06,trgovina,Jankomir 33,Zagreb,10000,45.7997265,15.8846814,+38515570936
+,zoocity,07,trgovina,Prilaz V. Holjevca 12,Karlovac,47000,45.5058294,15.5442216,+38547645582
+,zoocity,08,trgovina,Ul. Rudolfa Kolaka 14,Zagreb,10000,45.8369708,16.0461224,+38517897200
+,zoocity,09,trgovina,Ul. Vice Vukova 6,Zagreb,10000,45.7704026,15.9381151,+38514111381
+,zoocity,10,trgovina,Vukovarska ul. 207,Split,21000,43.5137750,16.5023389,+38521410166
+,zoocity,11,trgovina,Ul. akcije Maslenica 1,Zadar,23000,44.1170417,15.2710380,+38523326699
+,zoocity,15,trgovina,Slavonska avenija 11d,Zagreb,10000,45.8023309,16.0499517,+38512406825
+,zoocity,17,trgovina,V. Škorpika 23,Šibenik,22000,43.7134559,15.9125797,+38522341480
+,zoocity,19,trgovina,Svetojelenska cesta 25,Čakovec,40000,46.3957661,16.4279563,+38540313933
+,zoocity,22,trgovina,Gospodarska ul. 1,Koprivnica,48000,46.1456110,16.8362316,+38548864091
+,zoocity,24,trgovina,Avenija Dubrovnik 16,Zagreb,10000,45.7767808,15.9786900,+38515513814
+,zoocity,25,trgovina,Gračanska cesta 208,Zagreb,10000,45.8622290,15.9856775,+38514586036
+,zoocity,26,trgovina,Trg P. Preradovića 6/1,Zagreb,10000,45.8125217,15.9737827,+38515516121
+,zoocity,27,trgovina,Kralja Petra Krešimira IV 4,Samobor,10430,45.8017250,15.7265803,+38512316680
+,zoocity,28,trgovina,Ul. Grada Lipika 15,Donji Kneginec,42204,46.2636925,16.3727593,+38542550575
+,zoocity,29,trgovina,Ul. Rimske centurijacije 101,Pula,52100,44.8692365,13.8639526,+38552382454
+,zoocity,30,trgovina,Drinska 125,Osijek,31000,45.5512566,18.6909356,+38531659907
+,zoocity,31,trgovina,Avenija Dubrovnik 46,Zagreb,10000,45.7774224,15.9979820,+38512100738
+,zoocity,32,trgovina,Stoja 14a,Pula,52100,44.8603779,13.8250006,+38552645902
+,zoocity,33,trgovina,Nova Ves 17,Zagreb,10000,45.8203722,15.9777220,+38512230103
+,zoocity,34,trgovina,Josipa Broza Tita 5,Zabok,49210,46.0247019,15.9063182,+38549638107
+,zoocity,35,trgovina,Trogirska cesta 6,Trogir,21220,43.5397263,16.2884456,+38521214945
+,zoocity,36,trgovina,Ulica Spine 4,Rovinj,52210,45.0897252,13.6564585,+38552205830
+,zoocity,37,trgovina,Poljička 18,Split,21000,43.5048373,16.4552203,+38521243900
+,zoocity,38,trgovina,Put Brodarice 6,Split,21000,43.5194055,16.4459409,+38521243921
+,zoocity,39,trgovina,Cesta Dr. Franje Tuđmana 344,Kaštel Sućurac,21212,43.5484280,16.4129131,+38521243920
+,zoocity,40,trgovina,Ul. Rudolfa Fizira 3,Ludbreg,42230,46.2483998,16.6262756,+38542632968
+,zoocity,41,trgovina,Ulica kneza Branimira 119c,Zagreb,10000,45.8175005,16.0364792,+38516474450
+,zoocity,42,trgovina,Ul. kneza Ljudevita Posavskog 47,Velika Gorica,10410,45.7172564,16.0555255,+38516474392
+,zoocity,43,trgovina,Ul. Matije Gupca 59,Zadar,23000,44.1397194,15.2275568,+38523336096
+,zoocity,44,trgovina,Budačka ul. 100,Gospić,53000,44.5568209,15.3811330,+38553646111
+,zoocity,45,trgovina,Ul. 4.Gardijske Brigade 1,Zadar,23000,44.1123320,15.2553200,+38523551030
+,zoocity,46,trgovina,Augusta Šenoe 2B,Daruvar,43500,45.5949300,17.1990800,+38543633144
+,zoocity,47,trgovina,Kukuljanovo 362,Kukuljanovo,51227,45.3334379,14.5077561,+38551309470
+,zoocity,48,trgovina,Alojzija Stepinca 201,Vinkovci,32100,45.2884168,18.7525456,+38532616416
+,zoocity,49,trgovina,Jarušćica 4,Zagreb,10000,45.7695186,15.9404901,+38514058617
+,zoocity,50,trgovina,Štrmac 303,Labin,52220,45.1187032,14.1161848,+38552770889
+,zoocity,51,trgovina,Radnička cesta 49,Zagreb,10000,45.8031700,16.0063063,+38514058618
+,zoocity,52,trgovina,Ul. Istarskih narodnjaka 17,Pazin,52000,45.2342067,13.9217782,+38552770915
+,zoocity,53,trgovina,Ulica 34. inženjerijske bojne 2,Čakovec,40000,46.3885883,16.4488350,+38540630405
+,zoocity,54,trgovina,Grana ul. 150,Novi Marof,42220,46.1571495,16.3332002,+38542202229
+,zoocity,55,trgovina,Ulica Petra Preradovića 198,Đakovo,31400,45.2856705,18.4069924,+38531626324
+,zoocity,56,trgovina,Trg Milana Šufflaya 1,Karlovac,47000,45.4934851,15.5488552,+38547640348
+,zoocity,57,trgovina,Ivana Fistrovića 23,Sisak,44000,45.4945071,16.3785994,+38544635589
+,zoocity,58,trgovina,Ulica Josipa Rimca 7,Slavonski Brod,35000,45.1596759,17.9960510,+38535637939
+,zoocity,59,trgovina,Zagrebačka 52,Požega,34000,45.3310063,17.6481756,+38534620241
+,zoocity,60,trgovina,Zagrebačka ulica 1A,Vukovar,32000,45.3391944,19.0071048,+38532616451
+,zoocity,61,trgovina,Ulica Hrvatskog preporoda 70,Dugo Selo,10370,45.8044140,16.2276440,+38516474866
+,zoocity,62,trgovina,Ote Horvata 1,Virovitica,33000,45.8207775,17.3905161,+38533618093
+,zoocity,63,trgovina,Pristava Krapinska 63,Krapina,49000,46.1442869,15.8716461,+38549638136
+,zoocity,64,trgovina,Ulica grada Lipika 10,Donji Kneginec,42204,46.2642352,16.3761859,+38542202345
+,zoocity,65,trgovina,Svilajska ulica 35 B,Osijek,31000,45.5600622,18.6339397,+38531659048
+,zoocity,66,trgovina,Ivanečko Naselje 2/28,Ivanec,42240,46.2319868,16.1425603,+38542202348
+,zoocity,67,trgovina,Ulica kralja Petra Svačića 3,Nova Gradiška,35400,45.2546602,17.3808505,+38535640018
+,zoocity,68,trgovina,Alfreda Nobela 6,Rugvica,10370,45.7934980,16.1477480,+38516886529
+,zoocity,69,trgovina,Zagrebačka cesta 162B,Zagreb,10360,45.8271874,16.0805641,+38516887048
+,zoocity,70,trgovina,Ulica Josipa Reihl - Kira 36,Osijek,31000,45.5459534,18.7090438,+38531659352
+,zoocity,71,trgovina,Labinska ulica 51A,Rijeka,51000,45.3425454,14.3775612,+38551640797
+,zoocity,72,trgovina,Ulica bana Ivana Paližne 3,Knin,22300,44.0538210,16.2067545,+38522646999
+,zoocity,73,trgovina,Put Piketa 8,Sinj,21230,43.6982180,16.6496043,+38521243029
+,zoocity,74,trgovina,Ulica Hrvatskih branitelja 4,Samobor,10430,45.8138113,15.7156251,+38516888198
+,zoocity,76,trgovina,Pakračka ulica 11,Bjelovar,43000,45.8889303,16.8464736,+38543633474
+,zoocity,77,trgovina,Ulica Svetog Roka 15,Ogulin,47300,45.2545248,15.2331701,+38547640396
+,zoocity,webshop,webshop,,,,,,

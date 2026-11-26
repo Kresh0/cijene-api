@@ -38,6 +38,7 @@ from crawler.store.tommy import TommyCrawler
 from crawler.store.trgocentar import TrgocentarCrawler
 from crawler.store.trgovina_krk import TrgovinaKrkCrawler
 from crawler.store.vrutak import VrutakCrawler
+from crawler.store.zoocity import ZooCityCrawler
 from crawler.store.zabac import ZabacCrawler
 
 logger = logging.getLogger(__name__)
@@ -74,6 +75,7 @@ CRAWLERS = {
     StridonCrawler.CHAIN: StridonCrawler,
     PivacCrawler.CHAIN: PivacCrawler,
     BipaCrawler.CHAIN: BipaCrawler,
+    ZooCityCrawler.CHAIN: ZooCityCrawler,
 }
 
 
